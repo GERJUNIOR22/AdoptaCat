@@ -1,0 +1,44 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+
+.vscode/
+# Archivos de entorno local
+.env
+# Carpeta target ya que cambia
+/target/
+# Ignora toda la carpeta logs y su contenido.
+logs/
+# Ignora cualquier archivo .log que esté en la raíz del proyecto.
+*.log
+# Ignora todos los archivos .log en cualquier subdirectorio del proyecto (por si se generan en otras carpetas también).
+**/*.log
